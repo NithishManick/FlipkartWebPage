@@ -1,0 +1,43 @@
+{
+    "name": "Flipkartweb",
+    "short_name": "Flipkartweb",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "A new Flutter project.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+
+    "icons": [
+        {
+            "src": "icons/flip.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/flip.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/flip.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/flip.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+
+    ],
+
+    "fonts":[
+        {"asset":"fonts/MaterialIcons-Regular.ttf"}
+    ],"family":"MaterialIcons"
+
+
+}
